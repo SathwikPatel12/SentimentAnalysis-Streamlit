@@ -14,6 +14,8 @@ import time
 from datetime import datetime
 import base64
 from io import BytesIO
+from streamlit_lottie import st_lottie
+import requests
 
 # Download NLTK data (with error handling for deployment)
 @st.cache_resource
@@ -25,6 +27,28 @@ def download_nltk_data():
         return True
     except:
         return False
+
+# Add this function after your other @st.cache_resource functions
+@st.cache_resource
+def load_lottie_url(url: str):
+    """Load Lottie animation from URL"""
+    try:
+        r = requests.get(url)
+        if r.status_code != 200:
+            return None
+        return r.json()
+    except:
+        return None
+
+@st.cache_resource
+def load_header_animation():
+    """Load header animation"""
+    # Data analysis animation URL
+    animation_url = 'https://assets2.lottiefiles.com/packages/lf20_qp1q7mct.json'
+    return load_lottie_url(animation_url)
+
+# Load the header animation
+header_animation = load_header_animation()
 
 # Initialize NLTK
 download_nltk_data()
@@ -493,3 +517,4 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
