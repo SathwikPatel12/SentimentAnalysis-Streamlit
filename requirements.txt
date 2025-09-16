@@ -10,3 +10,5 @@ requests
 lottie
 plotly
 textblob
+
+streamlit-lottie
