@@ -195,8 +195,24 @@ if 'history' not in st.session_state:
 model = load_model()
 
 # Main header
-st.markdown('<h1 class="main-header">🎭 AI Sentiment Analysis Dashboard</h1>', unsafe_allow_html=True)
-st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #666;">Powered by Advanced NLP & Machine Learning</p>', unsafe_allow_html=True)
+# Enhanced header with animation
+col_anim, col_title, col_spacer = st.columns([1, 4, 1])
+
+with col_anim:
+    if header_animation:
+        st_lottie(
+            header_animation, 
+            height=120, 
+            width=120, 
+            key="header_animation",
+            speed=1
+        )
+    else:
+        st.markdown('<div style="font-size: 4rem; text-align: center;">📊</div>', unsafe_allow_html=True)
+
+with col_title:
+    st.markdown('<h1 class="main-header">🎭 AI Sentiment Analysis Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align: center; font-size: 1.2rem; color: #666;">Powered by Advanced NLP & Machine Learning</p>', unsafe_allow_html=True)
 
 # Sidebar
 with st.sidebar:
@@ -475,4 +491,5 @@ st.markdown("""
 <div style="text-align: center; color: #666; padding: 2rem;">
     <p>🚀 Built with Streamlit • 🤖 Powered by Machine Learning • 💡 Made with ❤️</p>
 </div>
+
 """, unsafe_allow_html=True)
