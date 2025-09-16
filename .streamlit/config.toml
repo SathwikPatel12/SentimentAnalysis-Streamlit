@@ -1,11 +1,10 @@
 [theme]
-base = "dark"
-primaryColor = "#1abc9c"
-backgroundColor = "#0e1117"
-secondaryBackgroundColor = "#262730"
-textColor = "#fafafa"
-font = "monospace"
-
+base = "light"
+primaryColor = "#9b59b6"
+backgroundColor = "#fdf6fd"
+secondaryBackgroundColor = "#f3eaf4"
+textColor = "#4a235a"
+font = "serif"
 
 #[theme]
 #primaryColor = "#667eea"
