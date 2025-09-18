@@ -33,15 +33,14 @@ A comprehensive sentiment analysis application built with advanced NLP technique
 - [📦 Installation & Setup](#-installation--setup)
 - [🚀 Deployment on Streamlit Cloud](#-deployment-on-streamlit-cloud)
 - [📁 Project Structure](#-project-structure)
-- [🔧 Configuration](#-configuration)
 - [📸 Screenshots](#-screenshots)
 - [🤝 Contributing](#-contributing)
 - [📊 Model Performance Details](#-model-performance-details)
 - [🐛 Known Issues](#-known-issues)
-- [📝 License](#-license)
 - [🙏 Acknowledgments](#-acknowledgments)
 - [📞 Contact](#-contact)
 
+---
 
 ## 🚀 Live Demo
 
@@ -71,6 +70,8 @@ A comprehensive sentiment analysis application built with advanced NLP technique
 - Timestamp tracking
 - Pattern recognition
 
+---
+
 ## 🤖 Machine Learning Pipeline
 
 ### Data Preprocessing
@@ -92,6 +93,8 @@ A comprehensive sentiment analysis application built with advanced NLP technique
   - Support Vector Machine
 - Hyperparameter optimization
 - Cross-validation for robust performance
+
+---
 
 ## 📊 Performance Metrics
 
@@ -136,6 +139,8 @@ A comprehensive sentiment analysis application built with advanced NLP technique
 3. **Automatic Updates**
    - Any push to your GitHub repository will automatically update your deployed app
 
+---
+
 ## 📁 Project Structure
 
 ```
@@ -163,16 +168,25 @@ sentiment-analysis-dashboard/
 ```
 
 
+---
+
 ## 📸 Screenshots
 
-### Main Dashboard
-![Main Dashboard](assets/screenshots/dashboard.png)
+### 🔹 Main Dashboard
+![Main Dashboard](images/img1.png)
 
-### Analysis Results
-![Analysis Results](assets/screenshots/results.png)
+### 🔹 Analysis Results
+![Analysis Results](images/img2.png)
 
-### Batch Processing
-![Batch Processing](assets/screenshots/batch.png)
+### 🔹 History Tracker
+![History Tracker](images/img3.png)
+
+### 🔹 Batch Processing
+![Batch Processing](images/img4.png)
+
+---
+
+
 
 ## 🤝 Contributing
 
@@ -186,6 +200,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - [ ] Push to the branch: `git push origin feature/AmazingFeature`
 - [ ] Open a Pull Request
 
+---
 
 ## 📊 Model Performance Details
 
@@ -219,6 +234,7 @@ weighted avg       0.71      0.70      0.71      288
 
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/cc475399-4a41-49bd-b30e-aa6fc8e3f564" />
 
+---
 
 ## 🐛 Known Issues
 
