@@ -21,6 +21,28 @@ A comprehensive sentiment analysis application built with advanced NLP technique
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-v1.3.0-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+<!-- ✅ INSERT TOC HERE -->
+
+## 📚 Table of Contents
+
+- [🚀 Live Demo](#-live-demo)
+- [✨ Features](#-features)
+- [🤖 Machine Learning Pipeline](#-machine-learning-pipeline)
+- [📊 Performance Metrics](#-performance-metrics)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [📦 Installation & Setup](#-installation--setup)
+- [🚀 Deployment on Streamlit Cloud](#-deployment-on-streamlit-cloud)
+- [📁 Project Structure](#-project-structure)
+- [🔧 Configuration](#-configuration)
+- [📸 Screenshots](#-screenshots)
+- [🤝 Contributing](#-contributing)
+- [📊 Model Performance Details](#-model-performance-details)
+- [🐛 Known Issues](#-known-issues)
+- [📝 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📞 Contact](#-contact)
+
+
 ## 🚀 Live Demo
 
 [**Try the App Live!**](https://sentimentanalysis-app-ctenkjk48urxzuudzft2pk.streamlit.app/) 
@@ -156,13 +178,14 @@ sentiment-analysis-dashboard/
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Development Workflow
+### 🛠️ Development Workflow
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- [ ] Fork the repository
+- [ ] Create your feature branch: `git checkout -b feature/AmazingFeature`
+- [ ] Commit your changes: `git commit -m 'Add AmazingFeature'`
+- [ ] Push to the branch: `git push origin feature/AmazingFeature`
+- [ ] Open a Pull Request
+
 
 ## 📊 Model Performance Details
 
@@ -170,6 +193,15 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - **Dataset Size**: [(1440 Records, 5 Fields)]
 - **Features**: Preprocessed text data
 - **Labels**: Positive, Negative, Neutral
+
+### 🧾 Example Input
+> "It's a very bad product, highly dissatisfied.. Specifically the colour is too whitish and unreal display.. Won't recommend to buy, instead go for M31.. It hangs as well within less than a month of purchase."
+
+### ✅ Output
+- **Predicted Sentiment**: Negative
+- **Confidence**: 79.5%
+- **Top Keywords**: bad, product, highly, dissatisfied, specifically, colour
+
 
 ### Evaluation Results
 ```
